@@ -42,7 +42,7 @@ function Message(message,type) {
 document.getElementsByTagName("form")[0].addEventListener("submit", function(event) {
     event.preventDefault()
 
-    fetch("./post.php", {
+    fetch("/newpost/post.php", {
         method: "POST",
         body: new FormData(document.querySelector("form"))
     })
