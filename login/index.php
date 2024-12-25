@@ -20,7 +20,7 @@
 <body>
     <img src="../database/ouchinet.png" style="border-radius: 100%;width: 5em;">
     <h1>ログイン</h1>
-    <form action="check.php" method="post">
+    <form action="/login/check.php" method="post">
         <label for="username">ユーザー名:</label>
         <input type="text" id="username" name="username">
 
