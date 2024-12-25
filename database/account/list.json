@@ -1,12 +1,23 @@
 {
     "test": {
         "number": 1,
-        "name": "テストアカウント",
-        "bio": "テスト用アカウントです。<br>自己紹介は特にないです。",
+        "name": "\u30c6\u30b9\u30c8\u30a2\u30ab\u30a6\u30f3\u30c8",
+        "bio": "\u30c6\u30b9\u30c8\u7528\u30a2\u30ab\u30a6\u30f3\u30c8\u3067\u3059\u3002<br>\u81ea\u5df1\u7d39\u4ecb\u306f\u7279\u306b\u306a\u3044\u3067\u3059\u3002",
         "email": "test%40test.com",
         "password": "nfO9uWT0%2BgsyKXKm61HkDA%3D%3D",
         "icon": "default",
         "post": 1,
+        "follow": [],
+        "follower": []
+    },
+    "tntsuperman": {
+        "number": 2,
+        "name": "tntsuperman",
+        "bio": "",
+        "email": "a%40a.a",
+        "password": "YCwslfk7xQ70tOJXskSvZQ%3D%3D",
+        "icon": "default",
+        "post": 0,
         "follow": [],
         "follower": []
     }
