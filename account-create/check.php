@@ -1,6 +1,4 @@
 <?php
-    require "/database/encrypt.php";
-
     if ($_SERVER["REQUEST_METHOD"] == "POST") { 
         $email = $_POST["email"];
         $user = $_POST["username"];
