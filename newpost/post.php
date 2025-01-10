@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     }, json_encode($postlist, JSON_PRETTY_PRINT)));
     file_put_contents("/database/post/post-number.txt", $post_num);
 
-    $userlist = file_get_contents("/database/account/list.json")
+    $userlist = file_get_contents("/database/account/list.json");
     $userlist = mb_convert_encoding($userlist, 'UTF8', 'ASCII,JIS,UTF-8,EUC-JP,SJIS-WIN');
     $userlist = json_decode($userlist,true);
 
