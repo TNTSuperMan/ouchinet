@@ -56,6 +56,7 @@
                     "number" => intval(file_get_contents("/database/account/account-number.txt")) + 1,
                     "name" => urlencode($user),
                     "bio" => "",
+                    "posts" => [],
                     "email" => urlencode($email),
                     "password" => password_hash($password, PASSWORD_DEFAULT),
                     "icon" => "default",
